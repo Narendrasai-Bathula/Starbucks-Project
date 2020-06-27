@@ -7,24 +7,25 @@ Project in Data Scientist Nanodegree of Udacity
 
 It is the Starbuck's Capstone Challenge of the Data Scientist Nanodegree in Udacity. We get the dataset from the program that creates the data simulates how people make purchasing decisions and how those decisions are influenced by promotional offers. We want to make a recommendation engine that recommends Starbucks which offer should be sent to a particular customer.
 
-## Libraries<a name="Libraries"></a>
-from sklearn.preprocessing import MinMaxScaler
+## Installation<a name="Installation"></a>
+The project was written using jupyter notebook
 
-from sklearn.model_selection import train_test_split, GridSearchCV
-
-from sklearn.tree import DecisionTreeClassifier
-
-from sklearn.naive_bayes import GaussianNB 
-
-from sklearn.neighbors import KNeighborsClassifier
-
-from sklearn.linear_model import LogisticRegression
-
-from sklearn.ensemble import RandomForestRegressor
+Libraries used in this are
+pandas
+numpy
+math
+json
+sklearn.model_selection (train_test_split module)
+sklearn.preprocessing (StandardScaler, PolynomialFeatures)
+from sklearn.tree (DecisionTreeClassifier,DecisionTreeRegressor)
+sklearn.ensemble (RandomForestClassifier)
+sklearn.metrics (mean_squared_error,classification_report)
+sklearn.linear_model (Ridge)
+time
+sklearn.model_selection (GridSearchCV)
+matplotlib
 
 ## File Descriptions <a name="files"></a>
-
-
 The notebook available here showcases work related to the above questions.  
 
 This data set is a simplified version of the real Starbucks app because the underlying simulator only has one product whereas Starbucks actually sells dozens of products. and store in zip file
@@ -34,6 +35,8 @@ The data is contained in three files:
 - `profile.json` - demographic data for each customer
 - `transcript.json` - records for transactions, offers received, offers viewed, and offers completed
 
+## Author <a name="Author"></a>
+Github [here](https://github.com/Narendrasai-Bathula/Starbucks-Project)
 
 ## Results<a name="results"></a>
 
