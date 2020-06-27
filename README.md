@@ -8,7 +8,7 @@ Project in Data Scientist Nanodegree of Udacity
 It is the Starbuck's Capstone Challenge of the Data Scientist Nanodegree in Udacity. We get the dataset from the program that creates the data simulates how people make purchasing decisions and how those decisions are influenced by promotional offers. We want to make a recommendation engine that recommends Starbucks which offer should be sent to a particular customer.
 
 ## Installation<a name="Installation"></a>
-The project was written using jupyter notebook
+The project was written in python uaing jupyter notebook
 
 Libraries used in this are
 pandas
@@ -48,7 +48,7 @@ The data is contained in three files:
 - `transcript.json` - records for transactions, offers received, offers viewed, and offers completed
 
 ## Author <a name="Author"></a>
-Github [here](https://github.com/Narendrasai-Bathula/Starbucks-Project)
+The Github Repository of author is [here](https://github.com/Narendrasai-Bathula/Starbucks-Project)
 
 ## Results<a name="results"></a>
 
