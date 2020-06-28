@@ -31,7 +31,12 @@ For the challenge, Udacity provided simulated data that a member's mandate is th
 This repository contains 4 files. My project report is called "Starbucks Capstone Challenge: Using Starbucks app user data to predict effective.ipynb offers."
 The data used in the project are available in the portfolio.json, profile.json and transcript.json files.
 
-### 4. Licenses, authors, thank you, etc.
+### 4.Results
+Based on transcription records, we created an array of user elements that represents how users responded to the offers they received. We then divide the records into the training set and the test set and train our SVD algorithm to predict how a user responds to a particular offer. We achieved the lowest mean squared error around 0.003823 with 15 latent characteristics with the training set and around 0.009175 with 10 latent characteristics with the test set. After that, we created a recommendation engine recommended by Starbucks, the offer of which should be sent to a particular user.
+
+We discovered which demographic groups respond best to each type of offer. Women respond much better than men, both in BOGO and on discount. Men react a little better to the discount than BOGO. We also discovered that it is better to promote the offer through social networks. Among the ten offers, the $ 10 buy shipping gets $ 2 off a 10-day offer via email, web, mobile, and social, earning Starbucks more. It is the best offer so far!
+
+### 5. Licenses, authors, thank you, etc.
 
 The data for the coding project were provided by Udacity.
 Author : https://github.com/Narendrasai-Bathula/Starbucks-Project
