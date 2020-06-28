@@ -44,5 +44,6 @@ We discovered which demographic groups respond best to each type of offer. Women
 ### 5. Licenses, authors, thank you, etc.
 
 The data for the coding project were provided by Udacity.
+
 Author : https://github.com/Narendrasai-Bathula/Starbucks-Project
 Credits : wikipedia & stackoverflow
