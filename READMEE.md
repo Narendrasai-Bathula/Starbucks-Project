@@ -1,5 +1,6 @@
 Data scientist at Udacity Nanodegree Capstone Project
 
+![Intro Pic](intro.jpeg)
 
 
 BLOG POST :(https://medium.com/@nani90103/starbucks-project-d9de78c3bfd6).
